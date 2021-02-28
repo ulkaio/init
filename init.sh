@@ -1,5 +1,7 @@
 echo "Install brew"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> /home/ulka/.zprofile
+eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 brew install go gh
 gh auth login
 
