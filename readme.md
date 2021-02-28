@@ -1,1 +1,1 @@
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/ulkaio/init/HEAD/init.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/ulkaio/init/master/init.sh)"
