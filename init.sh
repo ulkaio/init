@@ -2,7 +2,7 @@ echo "Install brew"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> $HOME/.zprofile
 eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
-brew install go gh zsh
+brew install go gh tmux
 
 echo "Install oh my zsh"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
